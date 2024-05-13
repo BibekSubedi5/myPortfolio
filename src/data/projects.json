@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Bus-Ticket-Booking",
+      "imageSrc": "projects/Bus.png",
+      "description": "This is just for practice.",
+      "skills": ["React", "Html", "CSS","JS"],
+      "demo":"https://bibeks123.github.io/Bus-Ticket-Booking/",
+      
+      "source": "https://github.com/Bibeks123/Bus-Ticket-Booking"
+    },
+    {
+      "title": "Tic-Tac_Toe",
+      "imageSrc": "projects/TicTacToe.jpg",
+      "description": "This is just for practice.",
+      "demo":" https://bibeks123.github.io/Tic-Tac_Toe/",
+      "skills": ["HTML", "CSS", "JS"],
+      
+      "source": "https://github.com/Bibeks123/Tic-Tac_Toe"
+    }
+    
+    
+  ]

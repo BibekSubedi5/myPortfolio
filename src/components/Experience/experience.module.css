@@ -1,0 +1,130 @@
+@import "../../vars.css";
+
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 25px;
+    font-weight: 700;
+   
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    font-display: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+
+
+}
+
+.skills{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+.skill{
+    display: flex;
+    font-display: column;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.skillImgContainer{
+    /* background-color: var(--color-secondary); */
+    background-color: #FDF5DF;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+  ;
+
+
+}
+.skill:hover{
+    transform: scale(1.2);
+}
+
+  
+
+
+.skillImageContainer img{
+    width: 75%;
+}
+
+.skill p{
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
+.history {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .historyItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    background: #19376d;
+    /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%); */
+    background-color: #FDF5DF;
+    border-radius: 10px;
+    padding: 24px;
+    font-family: var(--font-roboto);
+    transition: 0.4s;
+   
+
+  }
+  .historyItem:hover{
+    
+    background-image: linear-gradient(90deg
+    ,rgba(165,215,232,0.42)0%,
+    rgba(255,255,255,0)100%);
+    background-repeat: no-repeat;
+    transition: 0.4s;
+   
+  }
+
+ 
+.historyItemDetails h1{
+    gap: 10px;
+}
+
+
+@media screen and (max-width:830px){
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+
+    }
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history{
+        width: 100%;
+        gap: 9px;
+    }
+}

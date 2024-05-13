@@ -1,0 +1,121 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.contactsection{
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: blueviolet; */
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.mailText{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.inputText{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border-color:black ;
+  
+}
+.inputText:hover{
+  background-color: aqua;
+  animation: pulse 1s infinite alternate;
+
+}
+.sendButton{
+  text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0rgba(0,0,0,25);
+  margin-top: 5px;
+  transition: transform 0.3s ease;
+}
+.sendButton:hover{
+ 
+  transform: rotate(360deg);
+
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
