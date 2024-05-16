@@ -38,7 +38,7 @@ export const About = () => {
         <div className={styles.aboutItemText}>
         <h3>Bachelor of Software Engineering</h3>
        <p>Pokhara University</p>
-       <h6>School of Engineering(2019-present)</h6>
+       <h>School of Engineering(2019-present)</h>
         </div>
       </li>
     </ul>

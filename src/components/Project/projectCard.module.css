@@ -1,13 +1,20 @@
 @import "../../vars.css";
 
+
+.mainContainer{
+  /* background-color: aqua; */
+  padding: 0 0 40px 40px ;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   /* background: linear-gradient(180deg, #576cbc 0%, #132a53 100%); */
   background-color: #FDF5DF;
+  
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
+  padding: 20px 24px;
   width: 345px;
   height: 600px;
   transition: transforn 0.3 ease;
