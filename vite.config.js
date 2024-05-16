@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ["@fontsource/roboto"],
-      external: ['@fontsource/outfit']
+      external: ['@fontsource/outfit', '@fontsource/roboto']
     },
   },
   
