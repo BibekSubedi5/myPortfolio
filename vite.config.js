@@ -5,6 +5,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ["@fontsource/roboto"],
+      external: ['@fontsource/outfit']
     },
   },
   
