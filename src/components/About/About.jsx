@@ -15,7 +15,7 @@ export const About = () => {
         <div className={styles.aboutItemText}>
           <h3>About Me</h3>
           <p>
-          I am a dedicated frontend developer passionate about
+          I am a dedicated Web developer passionate about
            crafting elegant and user-friendly web experiences, leveraging the 
           latest technologies to transform innovative ideas into reality
           </p>
@@ -38,7 +38,7 @@ export const About = () => {
         <div className={styles.aboutItemText}>
         <h3>Bachelor of Software Engineering</h3>
        <p>Pokhara University</p>
-       <h>School of Engineering(2019-present)</h>
+       <h>School of Engineering(2019-2024)</h>
         </div>
       </li>
     </ul>
